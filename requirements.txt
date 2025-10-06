@@ -1,0 +1,6 @@
+apache-airflow
+requests
+kafka-python
+cassandra-driver 
+spark
+pyspark
