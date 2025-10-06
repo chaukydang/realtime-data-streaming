@@ -1,3 +1,42 @@
-logs/
+# python
 .venv/
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# data / artifacts
+data/
+artifacts/
+*.parquet
+*.csv
+*.log
+*.sqlite
+*.db
+*.gz
+*.zip
+*.avro
+*.orc
+*.snappy
+*.crc
+
+# airflow
+logs/
+airflow/logs/
+dags/__pycache__/
+
+# spark
+spark-warehouse/
+metastore_db/
+
+# docker & env
+.env
+*.env
+
+# editors / mac
+.vscode/
+.idea/
+.DS_Store
